@@ -13,16 +13,8 @@ fetch(url)
 .then((resp) => resp.json())
 .then(function(data) {
   let projets = data.results;
-  return projets.map(function(portfolio) {
-    let img = createEl('img');
-    let span = createEl('span');
-    img.src = author.picture.medium;
-    span.innerHTML = `${author.name.first} ${author.name.last}`;
-    parentAppend(li, img);
-    parentAppend(li, span);
-    parentAppend(ul, li);
+  return projets.map(function(work) {
+    console.log(work)
+   
   })
 })
-.catch(function(error) {
-  console.log(error);
-});
