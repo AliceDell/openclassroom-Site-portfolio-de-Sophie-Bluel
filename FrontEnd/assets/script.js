@@ -6,15 +6,14 @@ function parentAppend(parent, el) {
   return parent.appendChild(el);
 }
 
-const ul = document.getElementById('authors');
-const url = 'http://localhost:5678/';
+const galery = document.getElementsByClassName('gallery');
+const url = 'http://localhost:5678/api/works';
 
 fetch(url)
 .then((resp) => resp.json())
 .then(function(data) {
-  let authors = data.results;
-  return authors.map(function(author) {
-    let li = createEl('li');
+  let projets = data.results;
+  return projets.map(function(portfolio) {
     let img = createEl('img');
     let span = createEl('span');
     img.src = author.picture.medium;
