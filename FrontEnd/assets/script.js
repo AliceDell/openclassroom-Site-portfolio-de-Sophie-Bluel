@@ -6,15 +6,27 @@ function parentAppend(parent, el) {
   return parent.appendChild(el);
 }
 
-const galery = document.getElementsByClassName('gallery');
+const galery = document.getElementById("gallery");
 const url = 'http://localhost:5678/api/works';
 
 fetch(url)
 .then((resp) => resp.json())
 .then(function(data) {
-  let projets = data.results;
-  return projets.map(function(work) {
-    console.log(work)
+  let work = data.results;
+  return work.map(function(project) {
+    console.log(project);
+    console.log("tst");
    
+    /*let images = document.createElement("img")
+    image.src = projets.imageUrl;
+    image.alt = projets.title;
+    
+    let fig = document.createElement("figurecaption");
+    fig.innerHTML = work.title;
+    
+    let figure = document.createElement("figure");
+    figure.appendchild(images)
+    figure.appendchild(fig)
+    */
   })
 })
