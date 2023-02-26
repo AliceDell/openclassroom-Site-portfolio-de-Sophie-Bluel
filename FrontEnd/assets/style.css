@@ -34,6 +34,9 @@ body {
 ol, ul {
 	list-style: none;
 }
+a {
+	list-style: none;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -189,101 +192,94 @@ footer nav ul {
 /*------Bouton filtres-------------*/
 
 
+.button{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2%;
+	justify-content: center;
+	
+}
+
 .button-tous{
 	box-sizing: border-box;
 	font-family: 'Syne';
-	width: 94px;
+	width: 8%;
 	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
+	text-align: center;
 	border: 1px solid #1D6154;
 	border-radius: 60px;
+	margin-right: 1%;
 }
 .button-tous :hover{
-	box-sizing: border-box;
-	font-family: 'Syne';
-	width: 94px;
-	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
-	border: 1px solid #1D6154;
 	background: #1D6154;
 	border-radius: 60px;
+	color: white;
+	height: 90%;
+	
 }
 
 
 .button-objets{
 	box-sizing: border-box;
 	font-family: 'Syne';
-	width: 94px;
+	width: 9%;
 	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
+	text-align: center;
 	border: 1px solid #1D6154;
 	border-radius: 60px;
+	margin-right: 1%;
 }
 .button-objets :hover{
-	box-sizing: border-box;
-	font-family: 'Syne';
-	width: 94px;
-	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
-	border: 1px solid #1D6154;
 	background: #1D6154;
+	height: 90%;
 	border-radius: 60px;
+	color: white;
+	
 }
 
 
 .button-appt{
 	box-sizing: border-box;
 	font-family: 'Syne';
-	width: 94px;
+	width: 14%;
 	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
+	text-align: center;
 	border: 1px solid #1D6154;
 	border-radius: 60px;
+	margin-right: 1%;
 }
 .button-appt :hover{
-	box-sizing: border-box;
-	font-family: 'Syne';
-	width: 94px;
-	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
-	border: 1px solid #1D6154;
 	background: #1D6154;
 	border-radius: 60px;
+	color: white;
+	height: 90%;
+	
 }
 
 .button-hotel{
 	box-sizing: border-box;
 	font-family: 'Syne';
-
-	width: 94px;
+	width: 19%;
 	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	margin: auto;
+	text-align: center;
 	border: 1px solid #1D6154;
 	border-radius: 60px;
 }
 .button-hotel :hover{
-	box-sizing: border-box;
-	font-family: 'Syne';
-	width: 94px;
-	height: 34px;
-	padding-left: 28px;
-	padding-top: 9px;
-	border: 1px solid #1D6154;
 	background: #1D6154;
 	border-radius: 60px;
+	color: white;
+	height: 90%;
 }
+.button-hotel p{
+	padding-top: 4%;
+}
+
+.button, P
+{
+	padding-top: 6%;
+	
+}
+
+
 

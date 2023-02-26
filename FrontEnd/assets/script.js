@@ -28,11 +28,15 @@ fetch(url)
  // crée une fonction qui met à jour + la recherche
 
   // récupérer tout les projets
-    var getAllWorks = work.categoryId;
-    console.log(getAllWorks);
-    
+    var getAllWorks = work.id;
+    console.log("id projet => "+ getAllWorks);
+
   // catégories
+      var category = work.categoryId
+      console.log("id category => "+ category);
+
   // recherche de catégorie
+  
   // mettre à jour  
   })
 })
