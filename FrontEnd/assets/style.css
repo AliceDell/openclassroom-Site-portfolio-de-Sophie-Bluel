@@ -186,3 +186,104 @@ footer nav ul {
 	margin: 2em
 }
 
+/*------Bouton filtres-------------*/
+
+
+.button-tous{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	border-radius: 60px;
+}
+.button-tous :hover{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	background: #1D6154;
+	border-radius: 60px;
+}
+
+
+.button-objets{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	border-radius: 60px;
+}
+.button-objets :hover{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	background: #1D6154;
+	border-radius: 60px;
+}
+
+
+.button-appt{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	border-radius: 60px;
+}
+.button-appt :hover{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	background: #1D6154;
+	border-radius: 60px;
+}
+
+.button-hotel{
+	box-sizing: border-box;
+	font-family: 'Syne';
+
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	margin: auto;
+	border: 1px solid #1D6154;
+	border-radius: 60px;
+}
+.button-hotel :hover{
+	box-sizing: border-box;
+	font-family: 'Syne';
+	width: 94px;
+	height: 34px;
+	padding-left: 28px;
+	padding-top: 9px;
+	border: 1px solid #1D6154;
+	background: #1D6154;
+	border-radius: 60px;
+}
+

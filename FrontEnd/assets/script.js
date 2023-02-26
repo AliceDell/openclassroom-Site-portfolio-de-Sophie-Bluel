@@ -28,7 +28,9 @@ fetch(url)
  // crée une fonction qui met à jour + la recherche
 
   // récupérer tout les projets
-    var getAllWorks = work;
+    var getAllWorks = work.categoryId;
+    console.log(getAllWorks);
+    
   // catégories
   // recherche de catégorie
   // mettre à jour  
