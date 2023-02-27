@@ -36,7 +36,8 @@ fetch(url)
       console.log("id category => "+ category);
 
   // recherche de catégorie
-  
+      //gestion des bouttons 
+      
   // mettre à jour  
   })
 })
