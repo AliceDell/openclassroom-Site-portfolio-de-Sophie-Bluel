@@ -28,16 +28,18 @@ fetch(url)
  // crée une fonction qui met à jour + la recherche
 
   // récupérer tout les projets
-    var getAllWorks = work.id;
-    console.log("id projet => "+ getAllWorks);
+    var getAllWorks = document.getElementsByClassName(".button-tous");
+      getAllWorks.addEventListener("click",() => {
+        const text = "j'ai cliqué sur le bouton tous";
+        getAllWorks.innerHTML = text;
+      });
 
   // catégories
-      var category = work.categoryId
-      console.log("id category => "+ category);
+
+});
 
   // recherche de catégorie
       //gestion des bouttons 
       
   // mettre à jour  
   })
-})

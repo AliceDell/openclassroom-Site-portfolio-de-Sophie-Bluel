@@ -197,6 +197,7 @@ footer nav ul {
 	flex-direction: row;
 	margin-bottom: 2%;
 	justify-content: center;
+
 	
 }
 
@@ -207,6 +208,7 @@ footer nav ul {
 	height: 34px;
 	text-align: center;
 	border: 1px solid #1D6154;
+	background-color: white;
 	border-radius: 60px;
 	margin-right: 1%;
 }
@@ -226,14 +228,15 @@ footer nav ul {
 	height: 34px;
 	text-align: center;
 	border: 1px solid #1D6154;
+	background-color: white;
 	border-radius: 60px;
 	margin-right: 1%;
 }
 .button-objets :hover{
 	background: #1D6154;
-	height: 90%;
 	border-radius: 60px;
 	color: white;
+	height: 90%;
 	
 }
 
@@ -245,6 +248,7 @@ footer nav ul {
 	height: 34px;
 	text-align: center;
 	border: 1px solid #1D6154;
+	background-color: white;
 	border-radius: 60px;
 	margin-right: 1%;
 }
@@ -263,6 +267,7 @@ footer nav ul {
 	height: 34px;
 	text-align: center;
 	border: 1px solid #1D6154;
+	background-color: white;
 	border-radius: 60px;
 }
 .button-hotel :hover{
@@ -277,7 +282,7 @@ footer nav ul {
 
 .button, P
 {
-	padding-top: 6%;
+	padding-top: 1%;
 	
 }
 
