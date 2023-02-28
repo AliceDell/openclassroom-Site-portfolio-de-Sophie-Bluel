@@ -35,7 +35,7 @@ ol, ul {
 	list-style: none;
 }
 a {
-	list-style: none;
+	text-decoration: none;
 }
 blockquote, q {
 	quotes: none;
@@ -201,8 +201,8 @@ footer nav ul {
 	
 }
 
-.button-tous{
-	box-sizing: border-box;
+#button-tous{
+	
 	font-family: 'Syne';
 	width: 8%;
 	height: 34px;
@@ -212,16 +212,16 @@ footer nav ul {
 	border-radius: 60px;
 	margin-right: 1%;
 }
-.button-tous :hover{
+#button-tous :hover{
 	background: #1D6154;
 	border-radius: 60px;
 	color: white;
-	height: 90%;
+	height: 60%;
 	
 }
 
 
-.button-objets{
+#button-objets{
 	box-sizing: border-box;
 	font-family: 'Syne';
 	width: 9%;
@@ -232,7 +232,7 @@ footer nav ul {
 	border-radius: 60px;
 	margin-right: 1%;
 }
-.button-objets :hover{
+#button-objets :hover{
 	background: #1D6154;
 	border-radius: 60px;
 	color: white;
@@ -241,7 +241,7 @@ footer nav ul {
 }
 
 
-.button-appt{
+#button-appt{
 	box-sizing: border-box;
 	font-family: 'Syne';
 	width: 14%;
@@ -252,7 +252,7 @@ footer nav ul {
 	border-radius: 60px;
 	margin-right: 1%;
 }
-.button-appt :hover{
+#button-appt :hover{
 	background: #1D6154;
 	border-radius: 60px;
 	color: white;
@@ -260,7 +260,7 @@ footer nav ul {
 	
 }
 
-.button-hotel{
+#button-hotel{
 	box-sizing: border-box;
 	font-family: 'Syne';
 	width: 19%;
@@ -270,13 +270,13 @@ footer nav ul {
 	background-color: white;
 	border-radius: 60px;
 }
-.button-hotel :hover{
+#button-hotel :hover{
 	background: #1D6154;
 	border-radius: 60px;
 	color: white;
 	height: 90%;
 }
-.button-hotel p{
+#button-hotel p{
 	padding-top: 4%;
 }
 
