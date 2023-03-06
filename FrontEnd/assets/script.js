@@ -29,10 +29,10 @@ const url = 'http://localhost:5678/api/works';
     figure.appendChild(images);
     figure.appendChild(fig);
     galery.appendChild(figure);
-})
+    })
 
   });
-    });
+  });
 
 
   // recherche de catégorie
@@ -43,8 +43,26 @@ searchcat.addEventListener("click",() => {
   fetch(url)
   .then((resp) => resp.json())
   .then(function(data) {
+    let cat = data;
+      if (searchcat = cat.categoryId, cat.categoryId = 1)
+      {
+        return cat.map(function(cat) {
+          console.log(cat);
+          let images = document.createElement("img")
+          images.src = cat.imageUrl;
+          images.alt = cat.title;
+          images.crossorigin="anonymous";
+      
+          let fig = document.createElement("figurecaption");
+          fig.innerHTML = cat.title;
+          
+          let figure = document.createElement("figure");
+          figure.appendChild(images);
+          figure.appendChild(fig);
+          galery.appendChild(figure);
+          })
+      } 
 
-    
   })
 })     
       //gestion des bouttons 
