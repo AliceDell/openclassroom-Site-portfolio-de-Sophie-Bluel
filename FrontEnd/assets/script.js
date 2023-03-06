@@ -11,14 +11,12 @@ const url = 'http://localhost:5678/api/works';
   // récupérer tout les projets
   var getAllWorks = document.getElementById("button-tous");
   getAllWorks.addEventListener("click",() => {
-    fetch(url)
+  fetch(url)
   .then((resp) => resp.json())
   .then(function(data) { 
   let work = data;
     return work.map(function(work) {
     console.log(work);
-    
-   
     let images = document.createElement("img")
     images.src = work.imageUrl;
     images.alt = work.title;
@@ -38,15 +36,18 @@ const url = 'http://localhost:5678/api/works';
 
 
   // recherche de catégorie
-var searchcat = document.getElementById("button-objets");
-getAllWorks.addEventListener("click",() => {
-  console.log(searchcat);
-  return work.map(function(work) {
-      console.log(work);
+var searchcat = [];
+
+searchcat = document.getElementById("button-objets")
+searchcat.addEventListener("click",() => {
+  fetch(url)
+  .then((resp) => resp.json())
+  .then(function(data) {
+
     
-// faire un tableau avec array en faisant une fonction qui retourne les élements
+  })
+})     
       //gestion des bouttons 
-      
+    
   // mettre à jour  
-  });
-});
+  
